@@ -26,11 +26,6 @@ author: "Lorem Ipsum"
 
 信号机可以支持线圈、地磁、视频、红外等多种检测器，可连续准确的采集现场交通数据，并具备本机交通数据存储功能； 信号机可直接连接可变信息板，实时提供相关路段的交通信息；
 
-<video src="./images/tsc.avi" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
-
-<video src="./images/timp1.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
-
-<video src="./images/guard.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
 
 
 
@@ -46,8 +41,3 @@ author: "Lorem Ipsum"
 - 巡检结果分析
 - 巡检机器人日常管理及巡检设置
 
-<video src="./images/robot1.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
-
-### 无人车维护
-
-<video src="./images/apollo1.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
