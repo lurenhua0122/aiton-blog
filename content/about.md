@@ -1,21 +1,24 @@
 +++
 title = "About"
-date = "2019-01-25"
-author = "Radek"
+date = "2024-01-25"
+author = "Aiton"
 +++
 
 # Hi there
 
-My name is Radek and I'm the author of this theme. I made it to help you present your ideas easier.
+厦门艾通信息科技有限公司，成立于2012年11月，以实现智能化的交通管理和交通安全为宗旨，专业提供先进的交通控制系统、先进的智能交通信号控制机以及先进的交通组织优化分析和微观交通仿真分析服务。
 
-We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
-
-This theme is pretty basic and covers all of the essentials. All you have to do is start typing!
+公司致力于构建“智能、人文、绿色”的交通系统，以减少车辆及行人等待时间，缓解城市交通拥堵，降低环境污染，实现对城市交通的最佳控制!
 
 The theme includes:
 
-- **light/dark mode**, depending on your preferences
-- great reading experience thanks to [**Inter UI font**](https://rsms.me/inter/), made by [Rasmus Andersson](https://rsms.me/about/)
-- nice code highlighting thanks to [**PrismJS**](https://prismjs.com)
+- 我们提供智能联网控制的信号机，可以进行绿波控制和联网集中协调控制。
+- 智能化城市交通综合管控平台涵盖智能化城市道路交通管理各个方面。系统主要包括交通执法、稽查布控、分析研判、交通诱导、运维监管、指挥调度、态势监控等业务功能。
+- 公司与国内高校建立合作关系，针对交通优化系统进行建设。支持GIS在线地图 以GIS地图数据作为基础数据 ，实现对城市道路网络交叉口的单点信号配置优化管理。
 
-So, there you have it... enjoy!
+关于智能交通与运输业务的需求，请联系我们！！
+
+-  厦门市湖里区禾山路266号二层
+-  +86 0592-5212811
+-  +86 15959184067
+-  order@aiton.com.cn

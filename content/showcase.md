@@ -4,81 +4,50 @@ date: "2019-01-18"
 author: "Lorem Ipsum"
 ---
 
-## Header 2
+## 公司业务
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante. **Donec quis dolor nec nunc mollis interdum vel in purus**. Sed vitae leo scelerisque, sollicitudin elit sed, congue ante. In augue nisl, vestibulum commodo est a, tristique porttitor est. Proin laoreet iaculis ornare. Nullam ut neque quam.
+公司致力于构建“智能、人文、绿色”的交通系统，以减少车辆及行人等待时间，缓解城市交通拥堵，降低环境污染，实现对城市交通的最佳控制。
 
-> Fusce pharetra suscipit orci nec tempor. Quisque vitae sem sit amet sem mollis consequat. Sed at imperdiet lorem. Vestibulum pharetra faucibus odio, ac feugiat tellus sollicitudin at. Pellentesque varius tristique mi imperdiet dapibus. Duis orci odio, sodales lacinia venenatis sit amet, feugiat et diam.
+> 机器人自动化业务。
 
-### Header 3
+### 交通信号控制
 
-Nulla libero turpis, lacinia vitae cursus ut, auctor dictum nisl. Fusce varius felis nec sem ullamcorper, at convallis nisi vestibulum. Duis risus odio, porta sit amet placerat mollis, tincidunt non mauris. Suspendisse fringilla, `odio a dignissim pharetra`, est urna sollicitudin urna, eu scelerisque magna ex vitae tellus.
+实现智能化的交通管理和交通安全为宗旨，专业提供先进的交通控制系统、先进的智能交通信号控制机以及先进的交通组织优化分析和微观交通仿真分析服务。
 
-```css
-/* PostCSS code */
+1.  智能交通信号控制器
+2.  智能交通管理控制平台
+3.  移动互联网交通控制系统
 
-pre {
-  background: #1a1a1d;
-  padding: 20px;
-  border-radius: 8px;
-  font-size: 1rem;
-  overflow: auto;
+信号机符合《国家GB 25280-2010道路交通信号控制机标准》及《GB/T 20999-2017交通信号机与上位机间的数据通信协议标准》：
 
-  @media ($phone) {
-    white-space: pre-wrap;
-    word-wrap: break-word;
-  }
+信号机采用32位ARM处理器与实时多任务Linux系统，保证信号机具备强大的计算与通信能力。信号机机体主要由控制箱，接线部和机柜组成。控制箱主要包括主控板、相位灯控板、车辆检测器；
 
-  code {
-    background: none !important;
-    color: #ccc;
-    padding: 0;
-    font-size: inherit;
-  }
-}
-```
+信号机具有卓越的控制功能，能够提供关灯、闪光、全红、步进、跳相、长红长绿、时间表控制、全感应控制、半感应控制、无线缆协调控制、感应式协调控制、行人过街控制、动态方案选择、公交优先、紧急任务优先等多种控制方式；
 
-```js
-// JS code
+信号机可以支持线圈、地磁、视频、红外等多种检测器，可连续准确的采集现场交通数据，并具备本机交通数据存储功能； 信号机可直接连接可变信息板，实时提供相关路段的交通信息；
 
-const menuTrigger = document.querySelector('.menu-trigger')
-const menu = document.querySelector('.menu')
-const mobileQuery = getComputedStyle(document.body).getPropertyValue('--phoneWidth')
-const isMobile = () => window.matchMedia(mobileQuery).matches
-const isMobileMenu = () => {
-  menuTrigger.classList.toggle('hidden', !isMobile())
-  menu.classList.toggle('hidden', isMobile())
-}
+<video src="./images/tsc.avi" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
 
-isMobileMenu()
+<video src="./images/timp1.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
 
-menuTrigger.addEventListener('click', () => menu.classList.toggle('hidden'))
+<video src="./images/guard.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
 
-window.addEventListener('resize', isMobileMenu)
-```
 
-```html
-<!-- HTML code -->
 
-<section id="main">
-  <div>
-   <h1 id="title">{{ .Title }}</h1>
-    {{ range .Pages }}
-      {{ .Render "summary"}}
-    {{ end }}
-  </div>
-</section>
-```
 
-#### Header 4
 
-Curabitur scelerisque felis viverra varius scelerisque. Ut enim libero, molestie gravida blandit at, mollis ornare tellus. Cras arcu mi, ultrices vel pulvinar vel, volutpat eu tortor. Nullam nec eros quis massa ultrices iaculis sed in metus. Praesent sollicitudin sem sit amet orci tempor gravida.
+### 运维管理
 
-- Maecenas elementum vitae nibh vitae porttitor.
-- Aenean consequat, risus ut cursus placerat, arcu nulla sodales risus, ut molestie tellus tellus et dui.
-- Integer imperdiet turpis vitae lacus imperdiet, ut ornare ligula auctor. Integer in mi eu velit vehicula suscipit eget vulputate nulla.
-- Etiam vitae enim quis velit lobortis placerat a ut sem.
-  - Curabitur lobortis ante sit amet orci pulvinar, sollicitudin viverra nunc accumsan.
-  - Praesent fermentum orci quis leo facilisis posuere.
+机器人巡检任务信息（巡检任务名称、巡检点总数、异常巡检总数、当前巡检点、预计巡检时间、巡检进度、已巡检点数）、电子地图、可见光和红外视频画面、报文信息（实时信息、设备告警信息、系统告警信息）
 
-Aliquam erat volutpat. In hac habitasse platea dictumst. Nunc ut tincidunt mauris. Sed at gravida risus, id semper magna. Nullam vitae enim mattis, sodales neque non, pharetra elit. Cras sit amet sagittis augue, et finibus turpis. Ut tempus tincidunt diam vel pharetra. Nulla porttitor odio sit amet nulla scelerisque, quis aliquam mi imperdiet. Sed tincidunt dui vel tellus vestibulum rhoncus. Donec tempus ultrices velit.
+- 机器人管理
+- 任务管理
+- 实时监控
+- 巡检结果分析
+- 巡检机器人日常管理及巡检设置
+
+<video src="./images/robot1.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
+
+### 无人车维护
+
+<video src="./images/apollo1.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
