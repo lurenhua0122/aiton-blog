@@ -47,7 +47,7 @@ paginate = 5
 
     [languages.en.params.logo]
       logoText = "Aiton"
-      logoHomeLink = "/archive"
+      logoHomeLink = "/"
     # or
     #
     # path = "/img/your-example-logo.svg"
