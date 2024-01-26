@@ -47,7 +47,7 @@ paginate = 5
 
     [languages.en.params.logo]
       logoText = "Aiton"
-      logoHomeLink = "/archive"
+      logoHomeLink = "/index"
     # or
     #
     # path = "/img/your-example-logo.svg"
@@ -62,3 +62,7 @@ paginate = 5
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
+	  [[languages.en.menu.main]]
+        identifier = "archive"
+        name = "Archive"
+        url = "/archive"
